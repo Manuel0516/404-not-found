@@ -1,0 +1,21 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+h3{
+    margin: 20px;
+    padding: 20px;
+}
+.Scarecrow{
+    float: left;
+    width: 900px;
+    margin: 50px;
+    padding: 100px;
+}
+
+h1{
+    float: center;
+    padding: 30px;
+    margin: 40px;
+}
