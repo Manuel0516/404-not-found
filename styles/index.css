@@ -1,6 +1,8 @@
 *{
     background-color: black;
     color: white;
+    padding: 0;
+    margin: 0;
 }
 
 .Contenedor{
@@ -9,7 +11,7 @@
 
 h3{
     display: inline-block;
-    margin: 30px;
+    margin: 20px;
     padding: 10px;
     border: 2px solid white;
     border-radius: 10px;
@@ -23,11 +25,12 @@ h3{
 }
 
 .Scarecrow__img{
+    display: inline-block;
     margin-top: 3vw;
     margin-left: 20vw;
     font-size: 30px;
     font-family: 'Space Mono', monospace;
-    width: 30vw;
+    width: 400px;
 }
 
 .Mensage{
@@ -48,10 +51,12 @@ h3{
     font-family: 'Space Mono', monospace;
     font-weight: 0.3px;
     width: 90%;
+    margin-top: 30px;
 }
 
 .Button{
     margin-bottom: 40px;
+    margin-top: 20px;
     width: 200px;
     font-size: 15px;
     padding: 15px;
@@ -66,3 +71,88 @@ h3{
     cursor: pointer;
 }
 
+@media only screen and (max-width: 1065px){
+    .Scarecrow{
+        margin: auto;
+        display: block;
+    }
+    
+    .Scarecrow__img{
+        align-items: center;
+
+    }
+
+    .Mensage{
+        display: block;
+        align-items: center;
+        margin-left: 0;
+        margin: auto;
+        width: 100%;
+    }
+
+    .Mensage__Badnews{
+        display: block;
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    .Mensage__text{
+        display: block;
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    .Button{
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 620px){
+    .Scarecrow{
+        margin: auto;
+    }
+    
+    .Scarecrow__img{
+        align-items: center;
+        margin-left: 0;
+        width: 99%;
+    }
+
+    .Mensage{
+        display: block;
+        align-items: center;
+        margin-left: 0;
+        margin: auto;
+        width: 99%;
+    }
+
+    .Mensage__Badnews{
+        display: block;
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    .Mensage__text{
+        display: block;
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    .Button{
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+}
